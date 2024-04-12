@@ -1,4 +1,4 @@
-/* Estilos del formulario */
+/* Estilos del formulario  */
 body, html {
     height: 100%;
     margin: 0;
@@ -40,7 +40,7 @@ header, footer {
 
 .formulario-container {
     flex-grow: 1;
-    background-image: url('../dtos.jpg');
+    background-image: url('/public/images/dtos.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
