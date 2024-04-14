@@ -11,6 +11,7 @@ body, html {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    
 }
 
 header, footer {
@@ -46,6 +47,8 @@ header, footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+
 }
 
 .formulario {
@@ -55,6 +58,7 @@ header, footer {
     padding: 30px;
     max-width: 400px;
     width: 100%;
+    text-align: center;
 }
 
 .formulario h2 {
@@ -102,4 +106,7 @@ header, footer {
 .footer-principal .columna {
     flex: 1;
     text-align: left;
+}
+#tit-formulario {
+    color:white
 }
