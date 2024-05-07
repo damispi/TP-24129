@@ -11,171 +11,181 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
- 
-  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <title>REALESTATE</title>
+
 </head>
 
-<body>
+<body class="body-gral">
   <header>
-    <nav>
-      <div class="summasolutions-custom-top-header-0-x-container_top_header" style="background: rgb(122, 119, 23);">
-        <div class="summasolutions-custom-top-header-0-x-container_top_header_items" style="left: 0%;">
-          <p class="summasolutions-custom-top-header-0-x-top_header_text" style="color: rgb(255, 255, 255);">
-          <p class="Texto-mover" style=" text-decoration:none;color: white;">
-            Todos podemos ser propietarios de un pedacito.
-          </p>
-          </p>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <img src="Imagenes/logo1.PNG" alt="Logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Oportunidades.html">Oportunidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Crear cuenta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Iniciar sesión</a>
+            </li>
+          </ul>
         </div>
-    </nav>
-    <nav class="navbar">
-      <div class="navbar-logo">
-        <img src="logo1.PNG" alt="Logo">
       </div>
-      <ul class="navbar-menu">
-        <li><a href="Index.html">Inicio</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Oportunidades</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-      <ul class="navbar-menu">
-        <li><a href="registro.html">Crear cuenta</a></li>
-        <li><a href="#">Iniciar sesión</a></li>
-      </ul>
-    </nav>
   </header>
+
   <section class="banner">
-    <img src="Carrousel1.jpg" alt="" class="img-banner">
+    <img src="Imagenes/Carrousel1.jpg" alt="" class="img-banner">
   </section>
 
+  <!-- <div class="summasolutions-custom-top-header-0-x-container_top_header" style="background: rgb(123, 120, 9);">
+    <div class="summasolutions-custom-top-header-0-x-container_top_header_items" style="left: 0%;">
+      <p class="summasolutions-custom-top-header-0-x-top_header_text" style="color: rgb(255, 255, 255);">
+      <p class="Texto-mover" style=" text-decoration:none;color: white;">
+        Una porción de la vivienda puede ser tuya.
+      </p>
+      </p>
+    </div>
+  </div> -->
+
   <section class="botonera">
-   <button class="button button-botonera"><p>Al alcance de todos</p><p class="negrita">Invierte desde U$D 60.000.-</p></button>
-   <button class="button button-botonera"><p>¿Queres vender tus fracciones?</p><p class="negrita">Nosotros te ayudamos.</p></button>
-   <button class="button button-botonera"><p>¿No te gustó? ¿No se completó?</p><p class="negrita">Te devolvemos el monto en menos de 48 horas.</p> </button>
+    <button class="button button-botonera">
+      <p>Al alcance de todos</p>
+      <p class="negrita">Invierte desde U$D 60.000.-</p>
+    </button>
+    <button class="button button-botonera">
+      <p>¿Queres vender tus fracciones?</p>
+      <p class="negrita">Nosotros te ayudamos.</p>
+    </button>
+    <button class="button button-botonera">
+      <p>¿No te gustó? ¿No se completó?</p>
+      <p class="negrita">Te devolvemos el monto en menos de 48 horas.</p>
+    </button>
   </section>
 
   <section class="texto">
-    <p class="titulo-texto">Entra al mercado inmobiliario por una fracción del precio </p>
-    <p class="titulo-texto-secundario">El crowdfunding inmobiliario con respaldo legal que te deposita tu parte de cada arriendo.</p>
+    <p class="titulo-texto">Entra al mercado inmobiliario <br> por una fracción del precio </p>
+    <p class="titulo-texto-secundario">El crowdfunding inmobiliario con respaldo legal que te deposita tu parte de cada
+      arriendo.</p>
   </section>
- 
+
   <section class="productos">
-     <div class="Grid-productos">
+    <div class="Grid-productos">
       <div class="Cardi">
         <p class="Desc">DESCUENTOS IMPERDIBLES</p>
         <p class="Desc1">¡Estás a tiempo! Quedan: </p>
         <p class="Demo" id="demo"></p>
       </div>
       <div class="card">
-        <img src="departamento.jpg" alt="Denim Jeans" style="width:220px">
-        <h3 class="titulo-card">Desarrollo inmobiliario</h3>
-        <p class="price">$500.00.-</p>
+        <img src="Imagenes/Casas/casa1.webp" alt="Denim Jeans" style="width: 100%">
+        <h3 class="titulo-card">Casas</h3>
+        <p class="price"> desde: $50.000.-</p>
         <div class="progress-bar" role="progressbar" style="width:70%">
           70%
         </div>
-        <p><button>Comprar</button></p>
+        <p><button>Ver más</button></p>
       </div>
       <div class="card">
-        <img src="departamento.jpg" alt="Denim Jeans" style="width:220px">
-        <h3 class="titulo-card">Estacionamientos</h3>
-        <p class="price">$300.000.-</p>
+        <img src="Imagenes/Departamentos/departamento1.jpg" alt="Denim Jeans" style="width:100%">
+        <h3 class="titulo-card">Departamentos</h3>
+        <p class="price">desde: $40.000.-</p>
         <div class="progress-bar" role="progressbar" style="width:90%">
           90%
         </div>
-        <p><button>Comprar</button></p>
+        <p><button>Ver más</button></p>
       </div>
-      <div class="card">
-        <img src="departamento.jpg" alt="Denim Jeans" style="width:220px">
-        <h3 class="titulo-card">Reñaca</h3>
-        <p class="price">$100.000.-</p>
-        <div class="progress-bar" role="progressbar" style="width:50%">
-          50%
-        </div>
-        <p><button>Comprar</button></p>
-      </div>
-    
-      <div class="card">
-        <img src="departamento.jpg" alt="Denim Jeans" style="width:220px">
-        <h3 class="titulo-card">Independencias</h3>
-        <p class="price">$100.000.-</p>
-        <div class="progress-bar" role="progressbar" style="width:30%">
-          30%
-        </div>
-        <p><button>Comprar</button></p>
-      </div>
-    </div> 
+    </div>
   </section>
 
   <section class="proceso">
-    <p></p>
-     <p style="font-size: 20px;">¿Cómo funciona?</p> 
-     <br>
-     <p style="font-size: 20px;">Conoce el proceso</p> 
-     <p></p>
-     <div class="proceso-grid">
-      <div>
-        <img src="CSS/svg1.svg" alt="" srcset="">
-        <p>Reserva tus cm² </p>
+
+    <p class="titulo-texto-secundario">¿Cómo funciona?</p>
+
+    <p class="titulo-texto-secundario">Conoce el proceso: </p>
+
+    <div class="proceso-grid">
+      <div class="proceso-card">
+        <img src="Imagenes/svg1.svg" alt="" srcset="">
+        <p class="negrita">Reserva tus cm² </p>
         <p> Juntamos los aportes de cientos de personas en cada propiedad.</p>
       </div>
-      <div>
-        <img src="CSS/svg2.svg" alt="" srcset="">
-        <p>Sociedad por Acciones</p>
+      <div class="proceso-card">
+        <img src="Imagenes/svg2.svg" alt="" srcset="">
+        <p class="negrita">Sociedad por Acciones</p>
         <p>Entras como socio a una SpA y se compra el departamento.</p>
       </div>
-      <div>
-        <img src="CSS/svg3.svg" alt="" srcset="">
-        <p>Ganas por arriendo</p>
+      <div class="proceso-card">
+        <img src="Imagenes/svg3.svg" alt="" srcset="">
+        <p class="negrita">Ganas por arriendo</p>
         <p>El arriendo percibido menos administración y costos se reparte mes a mes.</p>
       </div>
-      <div>
-        <img src="CSS/svg4.svg" alt="" srcset="">
-        <p>Crece tu inversión</p>
+      <div class="proceso-card">
+        <img src="Imagenes/svg4.svg" alt="" srcset="">
+        <p class="negrita">Crece tu inversión</p>
         <p>Con tu Fracción participas año a año de la Plusvalía y la variación de la UF.</p>
       </div>
-     </div>
+    </div>
   </section>
 
   <section class="acceso">
-    <p></p>
-     <p style="font-size: 40px; font-weight: bold;">La forma fácil acceder a la inversión inmobiliaria</p> 
-     <br>
-     <div class="acceso-grid">
-      <div>
-        <img src="acceder1.avif" alt="" srcset="">
+    <p class="titulo-texto">La forma fácil de acceder <br> a la inversión inmobiliaria</p>
+    <br>
+    <div class="acceso-grid">
+      <div class="acceso-grid-card">
+        <img src="Imagenes/acceder1.avif" alt="" srcset="" style="width:180px">
       </div>
-      <div>
-        <p>Tu fracción es segura y legal</p>
+      <div class="acceso-grid-card">
+        <p class="negrita">Tu fracción es segura y legal</p>
         <p> Serás accionista de una SpA debidamente inscrita en el Conservador de Bienes Raíces.</p>
       </div>
-      <div>
-        <img src="acceder2.avif" alt="" srcset="">
+      <div class="acceso-grid-card">
+        <img src="Imagenes/acceder2.avif" alt="" srcset="" style="width:180px">
       </div>
-      <div>
-        <p>Sin créditos ni cachos para ti</p>
+      <div class="acceso-grid-card">
+        <p class="negrita">Sin créditos ni cachos para ti</p>
         <p>Nos encargamos de los trámites y la administración de la propiedad.</p>
       </div>
-      <div>
-        <img src="acceder3.avif" alt="" srcset="">
+      <div class="acceso-grid-card">
+        <img src="Imagenes/acceder3.avif" alt="" srcset="" style="width:180px">
       </div>
-      <div>
-        <p>Pon tus cm² a la venta cuando quieras</p>
+      <div class="acceso-grid-card">
+        <p class="negrita">Pon tus cm² a la venta cuando quieras</p>
         <p>Compra y vende fracciones a otras personas a través de nuestra plataforma.</p>
       </div>
-      <div>
-        <img src="acceder4.avif" alt="" srcset="">
+      <div class="acceso-grid-card">
+        <img src="Imagenes/acceder4.avif" alt="" srcset="" style="width:180px">
       </div>
-      <div>
-        <p>Excelente opción para diversificar</p>
+      <div class="acceso-grid-card">
+        <p class="negrita">Excelente opción para diversificar</p>
         <p>Desde $200.000 en las propiedades que quieras, las veces que quieras.</p>
       </div>
-     </div>
+    </div>
   </section>
 
 
   <footer class="footer-principal">
     <div class="contenedor contenedor-flex">
       <div class="columna columna-flex-footer">
-        <h2 class="titulo-columna"><img src="logotipo-imobiliario_74869-184.avif" alt="" width="150px;">
+        <h2 class="titulo-columna"><img src="Imagenes/logotipo-imobiliario_74869-184.avif" alt="" width="150px;">
         </h2>
         <p class="desc-columna">
         </p>
@@ -202,36 +212,38 @@
     <div class="copy"><i class="far fa-copyright"></i> Copyright - 2021</div>
   </footer>
 
+
+
   <script>
     // Set the date we're counting down to
-    var countDownDate = new Date("apr 29, 2024 15:37:25").getTime();
+    var countDownDate = new Date("apr 30, 2025 15:37:25").getTime();
 
     // Update the count down every 1 second
-    var x = setInterval(function() {
+    var x = setInterval(function () {
 
       // Get today's date and time
       var now = new Date().getTime();
-        
+
       // Find the distance between now and the count down date
       var distance = countDownDate - now;
-        
+
       // Time calculations for days, hours, minutes and seconds
       var days = Math.floor(distance / (1000 * 60 * 60 * 24));
       var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        
+
       // Output the result in an element with id="demo"
       document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-      + minutes + "m " + seconds + "s ";
-        
+        + minutes + "m " + seconds + "s ";
+
       // If the count down is over, write some text 
       if (distance < 0) {
         clearInterval(x);
         document.getElementById("demo").innerHTML = "EXPIRED";
       }
     }, 1000);
-    </script>
+  </script>
 
 </body>
 

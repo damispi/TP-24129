@@ -1,0 +1,91 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: -20px 0px 0px 0px;
+    padding: 0;
+}
+
+header,
+footer {
+    background: rgb(122, 119, 23);
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    /*padding: 10px 20px 0px 0px;*/
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+}
+
+.navbar-menu li {
+    margin-left: 20px;
+}
+
+.navbar-menu li:first-child {
+    margin-left: 0px;
+}
+
+.navbar-menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.grid-card-casas {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: arial;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    /* Especifica la sombra del texto */
+    margin-bottom: 20px;
+}
+
+.imagenproducto {
+    width: 100%;
+    height: auto;
+}
+
+.price {
+    color: grey;
+    font-size: 15px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 10px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.linea {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin: 30px 250px 30px 250px;
+}

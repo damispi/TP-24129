@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .navbar {
+    background-color: #010101;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar-logo img {
+    height: 40px; 
+  }
+  
+  .navbar-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content:end;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin-left: 20px;
+  }
+  
+  .navbar-menu li:first-child {
+    margin-left: 0;
+  }
+  
+  .navbar-menu li a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  
+
+.Texto-mover{
+    animation: mover-izquierda-derecha 45s infinite;
+    animation-fill-mode: forwards;
+    font-size: 18px;
+}
+@keyframes mover-izquierda-derecha{
+    from{
+        transform: translateX(-90%);
+    }
+    to{
+        transform: translateX(90%);
+    }
+}
+.caja {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.contenedor-info{
+    flex-grow: 1;
+    background-image: url(/Carrousel1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.info{
+    background-color: #000000e6;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+    padding: 30px;
+    max-width: 700px;
+    width: 100%;
+}
+.info a{
+    color: white;
+    font-weight: bold;
+}
+
+.info iframe{
+    min-width: 100%;
+}
+
+/* Estilos para el FOOTER */
+
+.footer-principal {
+    background: #000000;
+    color: white;
+    padding: 20px 5px; 
+    font-size: 12px;
+}
+
+.footer-principal [class*="icon-"] {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.footer-principal [class*="icon-"]:before {
+    position: relative;
+    top: 3px; 
+    right: 5px;
+}
+
+/* Estilos para el diseño de las columnas flexibles */
+.contenedor-flex {
+    display: flex;
+}
+
+.columna-flex-footer {
+    flex: 1;
+    padding: 20px;
+   /*border-right: 1px solid #ccc;*/
+}
+
+.columna-flex-footer:last-child {
+    border-right: none; /* Elimina el borde en la última columna */
+}
+
+.titulo-columna {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.desc-columna {
+    margin-bottom: 10px;
+}
+
+.icon-facebook,
+.icon-twitter,
+.icon-instagram {
+    text-decoration: none; /* Quita la subrayado de los enlaces */
+    color: #333; /* Color del texto */
+}
+
+.icon-facebook:hover,
+.icon-twitter:hover,
+.icon-instagram:hover {
+    color: #4267B2; /* Color del texto al pasar el ratón */
+}
+.copy{
+    margin-top: 10px;
+    text-align: center;
+}
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+.btn-wsp:hover{
+    text-decoration: none;
+    color:#0df053;
+    background: #fff;
+}
+/* label #btn-nav,
+label #cancel{
+    color: #ffffff;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+    
+} */
+
+@media (max-width: 860px) {
+    .navbar-menu{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: flex-end; */
+        height: 0px;
+        /* position: absolute; */
+        /* top: 80px; */
+        left: 20px;
+        right: 0;
+        width: 100vw;
+        overflow: hidden;
+    }
+    #btn-nav{
+        display: block;
+        color: #0df053;
+    }
+    
+
+}

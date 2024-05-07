@@ -1,5 +1,6 @@
 /* Estilos del formulario */
-body, html {
+body,
+html {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -11,14 +12,15 @@ body, html {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    
+
 }
 
-header, footer {
+header,
+footer {
     background: rgb(122, 119, 23);
     color: white;
     text-align: center;
-    padding:0;
+    padding: 0;
     margin: 0;
 }
 
@@ -41,13 +43,13 @@ header, footer {
 
 .formulario-container {
     flex-grow: 1;
-    background-image: url('../dtos.jpg');
+    background-image: url('../Imagenes/departamento.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 
 }
 
@@ -67,7 +69,8 @@ header, footer {
 
 .formulario label {
     font-size: 18px;
-    color: rgb(249, 249, 249); /* Cambiar el color del label a negro */
+    color: rgb(249, 249, 249);
+    /* Cambiar el color del label a negro */
 }
 
 .formulario input[type="text"],
@@ -106,6 +109,7 @@ header, footer {
     flex: 1;
     text-align: left;
 }
+
 #tit-formulario {
-    color:white
+    color: white
 }
